@@ -1,25 +1,16 @@
-import Image from 'next/image'
-import { Inter } from 'next/font/google'
-
-
 import Video from '@/components/Video'
 import Banner1 from '@/components/Banner1'
-const inter = Inter({ subsets: ['latin'] })
+import Tile from '@/components/Tile'
+import Banner2 from '@/components/Banner2'
 
 export default function Home() {
-
-
-
-
-
-
 
   return (
     <main>
       <Video />
       <Banner1 />
-
-
+      <Tile />
+      <Banner2 />
     </main>
   )
 }

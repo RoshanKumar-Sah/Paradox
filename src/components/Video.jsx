@@ -11,11 +11,10 @@ export default function Video() {
 
     return (
         <section className='w-full flex justify-center md:p-4'>
-            <div className='player-wrapper w-full  border-2'>
+            <div className='player-wrapper w-full '>
                 {
-                    player && <ReactPlayer className='react-player' url='https://www.youtube.com/watch?v=wS_qbDztgVY' width="100%" height="100%" muted playing loop controls />
+                    player && <ReactPlayer className='react-player' url='https://www.youtube.com/watch?v=dpEPNioJ1Ik&ab_channel=PrinceLab' width="100%" height="100%" muted playing loop controls />
                 }
-
             </div>
         </section>
     )
